@@ -1,0 +1,11 @@
+#addNewScore {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

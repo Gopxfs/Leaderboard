@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,aAAa,CAAC;EACZ,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,EAAE;CAQhB;;AAVD,AAIE,aAJW,CAIX,GAAG,CAAC;EACF,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,GAAG,EAAE,EAAE;EACP,eAAe,EAAE,MAAM;CACxB;;ACTH,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,GAAG;CAOX;;AAVD,AAKE,YALU,CAKV,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,GAAG,EAAE,IAAI;CACV;;AFNH,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,GAAG,EAAE,EAAE;EACP,KAAK,EAAE,KAAK;CACb",
     "sources": [
-        "index.scss"
+        "index.scss",
+        "partials/_recentScores.scss",
+        "partials/_addNewScore.scss"
     ],
     "names": [],
     "file": "index.css"

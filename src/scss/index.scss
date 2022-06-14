@@ -1,0 +1,9 @@
+@import "./partials/recentScores";
+@import "./partials/addNewScore";
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  width: 100vw;
+}

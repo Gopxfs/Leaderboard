@@ -1,1 +1,31 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+#recentScores {
+  width: 40%;
+  margin-left: 5%;
+}
+
+#recentScores div {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  justify-content: center;
+}
+
+#addNewScore {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#addNewScore form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  width: 100vw;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,11 @@
+#recentScores {
+  width: 40%;
+  margin-left: 5%;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+  }
+}
