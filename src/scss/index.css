@@ -52,7 +52,12 @@
 
 @media screen and (max-width: 768px) {
   #recentScores {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   #recentScores div h2 {
     font-size: 25px;
@@ -61,12 +66,8 @@
     height: 40px;
     width: 100px;
   }
-  #recentScores ul {
-    width: auto;
-  }
   #recentScores ul li {
     font-size: 22px;
-    width: 85vw;
   }
 }
 
@@ -118,6 +119,8 @@
   #addNewScore {
     align-items: center;
     width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   #addNewScore h2 {
     font-size: 25px;
@@ -174,7 +177,7 @@ main {
   }
   main {
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     gap: 25px;
     margin-top: 35px;
     margin-bottom: 35px;
