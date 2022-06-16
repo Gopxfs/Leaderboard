@@ -41,3 +41,32 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  #addNewScore {
+    align-items: center;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    h2 {
+      font-size: 25px;
+      margin-bottom: 18px;
+    }
+
+    form {
+      gap: 15px;
+
+      input {
+        font-size: 18px;
+        padding: 12px;
+      }
+
+      button {
+        font-size: 18px;
+        height: 45px;
+        width: 125px;
+      }
+    }
+  }
+}
