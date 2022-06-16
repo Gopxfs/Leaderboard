@@ -10,6 +10,12 @@
   justify-content: center;
 }
 
+#addNewScore h2 {
+  font-size: 33px;
+  color: #290e44;
+  margin-bottom: 45px;
+}
+
 #recentScores div h2 {
   font-size: 33px;
   color: #290e44;
@@ -23,6 +29,14 @@
   align-self: center;
 }
 
+#addNewScore form button {
+  font-size: 20px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  align-self: center;
+}
+
 #recentScores div button:hover {
   color: #fff;
   background-color: #5a2094;
@@ -31,11 +45,11 @@
 #recentScores ul {
   display: flex;
   flex-direction: column;
-  border: #111111 8px solid;
+  border: #111 8px solid;
   border-radius: 5px;
   padding: 0;
   list-style: none;
-  background-color: #111111;
+  background-color: #111;
 }
 
 #recentScores ul :nth-child(even) {
@@ -55,12 +69,6 @@
   width: 30%;
 }
 
-#addNewScore h2 {
-  font-size: 33px;
-  color: #290e44;
-  margin-bottom: 45px;
-}
-
 #addNewScore form {
   display: flex;
   flex-direction: column;
@@ -74,14 +82,6 @@
 
 #addNewScore form input:hover {
   background-color: #e0e0e0;
-}
-
-#addNewScore form button {
-  font-size: 20px;
-  border-radius: 5px;
-  height: 50px;
-  width: 150px;
-  align-self: center;
 }
 
 #addNewScore form button:hover {
@@ -111,4 +111,3 @@ main {
   gap: 5%;
   width: 100vw;
 }
-/*# sourceMappingURL=index.css.map */
