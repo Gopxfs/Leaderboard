@@ -13,9 +13,10 @@ class API {
     })
   }
 
-  getGameScore() {
-    fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/hM22QmJGo2GlE65TQ6ll/scores/')
+   getGameScore() {
+    const score = fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/hM22QmJGo2GlE65TQ6ll/scores/')
     .then(response => response.json())
+    return score;
   }
 
   createGame(gameName) {

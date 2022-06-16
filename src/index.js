@@ -12,8 +12,7 @@ submitScore.addEventListener('submit', () => {
   api.addNewScore(playerName.value, playerScore.value);
 });
 
-refreshButton.addEventListener('click', () => {
-  const gameScore = api.getGameScore();
+refreshButton.addEventListener('click', async () => {
+  const gameScore = await api.getGameScore();
   console.log(gameScore);
 });
-
