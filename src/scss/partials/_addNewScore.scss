@@ -5,7 +5,7 @@
 
   h2 {
     font-size: 33px;
-    color: #290e44;
+    color: #f7ae11;
     margin-bottom: 45px;
   }
 
@@ -17,10 +17,15 @@
     input {
       font-size: 22px;
       padding: 15px;
+
     }
 
     input:hover {
-      background-color: rgb(224, 224, 224);
+      background-color: rgb(196, 193, 183);
+    }
+
+    input:hover::placeholder {
+      color: rgb(59, 59, 59);
     }
 
     button {
@@ -33,7 +38,7 @@
 
     button:hover {
       color: #fff;
-      background-color: #5a2094;
+      background-color: #0d776c;
     }
   }
 }

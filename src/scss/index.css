@@ -10,15 +10,9 @@
   justify-content: center;
 }
 
-#addNewScore h2 {
-  font-size: 33px;
-  color: #290e44;
-  margin-bottom: 45px;
-}
-
 #recentScores div h2 {
   font-size: 33px;
-  color: #290e44;
+  color: #f7ae11;
 }
 
 #recentScores div button {
@@ -29,37 +23,30 @@
   align-self: center;
 }
 
-#addNewScore form button {
-  font-size: 20px;
-  border-radius: 5px;
-  height: 50px;
-  width: 150px;
-  align-self: center;
-}
-
 #recentScores div button:hover {
   color: #fff;
-  background-color: #5a2094;
+  background-color: #0d776c;
 }
 
 #recentScores ul {
   display: flex;
   flex-direction: column;
-  border: #111 8px solid;
+  border: #0e0d0d 8px solid;
   border-radius: 5px;
   padding: 0;
   list-style: none;
-  background-color: #111;
+  background-color: #0e0d0d;
 }
 
 #recentScores ul :nth-child(even) {
-  background-color: #4a1d77;
+  background-color: #e9ab24;
+  color: #141414;
 }
 
 #recentScores ul li {
-  background-color: #39135f;
+  background-color: #0d776c;
   font-size: 33px;
-  color: #e4e4e4;
+  color: #ebebeb;
   padding: 15px;
 }
 
@@ -67,6 +54,12 @@
   display: flex;
   flex-direction: column;
   width: 30%;
+}
+
+#addNewScore h2 {
+  font-size: 33px;
+  color: #f7ae11;
+  margin-bottom: 45px;
 }
 
 #addNewScore form {
@@ -81,18 +74,30 @@
 }
 
 #addNewScore form input:hover {
-  background-color: #e0e0e0;
+  background-color: #c4c1b7;
+}
+
+#addNewScore form input:hover::placeholder {
+  color: #3b3b3b;
+}
+
+#addNewScore form button {
+  font-size: 20px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  align-self: center;
 }
 
 #addNewScore form button:hover {
   color: #fff;
-  background-color: #5a2094;
+  background-color: #0d776c;
 }
 
 body {
   overflow: auto;
   overflow-x: hidden;
-  background-color: #744691;
+  background-color: #211f20;
 }
 
 body * {
@@ -101,7 +106,7 @@ body * {
 
 body h1 {
   margin-left: 15%;
-  color: #290e44;
+  color: #f7ae11;
   font-size: 60px;
 }
 
@@ -111,3 +116,4 @@ main {
   gap: 5%;
   width: 100vw;
 }
+/*# sourceMappingURL=index.css.map */
