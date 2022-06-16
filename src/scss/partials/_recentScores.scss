@@ -10,7 +10,7 @@
 
     h2 {
       font-size: 33px;
-      color: #290e44;
+      color: #f7ae11;
     }
 
     button {
@@ -23,27 +23,28 @@
 
     button:hover {
       color: #fff;
-      background-color: #5a2094;
+      background-color: #0d776c;
     }
   }
 
   ul {
     display: flex;
     flex-direction: column;
-    border: rgb(17, 17, 17) 8px solid;
+    border: rgb(14, 13, 13) 8px solid;
     border-radius: 5px;
     padding: 0;
     list-style: none;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(14, 13, 13);
 
     :nth-child(even) {
-      background-color: #4a1d77;
+      background-color: #e9ab24;
+      color: rgb(20, 20, 20);
     }
 
     li {
-      background-color: #39135f;
+      background-color: #0d776c;
       font-size: 33px;
-      color: rgb(228, 228, 228);
+      color: rgb(235, 235, 235);
       padding: 15px;
     }
   }
