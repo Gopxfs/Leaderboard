@@ -9,7 +9,7 @@
 - API
 
 ## Live demo:
-[Live demo] (https://gopxfs.github.io/Leaderboard/dist/)
+[Live demo](https://gopxfs.github.io/Leaderboard/dist/)
 
 ## Getting Started:
 To access and change the code on your computer (using GIT):
