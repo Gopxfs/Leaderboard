@@ -14,7 +14,7 @@ class API {
 
   getGameScore = () => {
     const score = fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/EUPt0FcF5NjJxFAETzlU/scores/')
-    .then((response) => response.json());
+      .then((response) => response.json());
     return score;
   }
 

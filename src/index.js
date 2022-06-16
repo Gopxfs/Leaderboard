@@ -20,11 +20,6 @@ submitScore.addEventListener('submit', () => {
   return false;
 });
 
-refreshButton.addEventListener('click', async () => {
-  const howManyScoresBeforeRefreshing = gameScore.result.length;
-  populateScores(howManyScoresBeforeRefreshing);
-});
-
 const populateScores = async (index) => {
   gameScore = await getScores();
   for (let i = index; i < gameScore.result.length; i += 1) {
@@ -34,3 +29,8 @@ const populateScores = async (index) => {
   }
 };
 populateScores(0);
+
+refreshButton.addEventListener('click', async () => {
+  const howManyScoresBeforeRefreshing = gameScore.result.length;
+  populateScores(howManyScoresBeforeRefreshing);
+});
