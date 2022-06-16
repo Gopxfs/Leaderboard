@@ -1,0 +1,39 @@
+#addNewScore {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+  h2 {
+    font-size: 33px;
+    color: #290e44;
+    margin-bottom: 45px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+      font-size: 22px;
+      padding: 15px;
+    }
+
+    input:hover {
+      background-color: rgb(224, 224, 224);
+    }
+
+    button {
+      font-size: 20px;
+      border-radius: 5px;
+      height: 50px;
+      width: 150px;
+      align-self: center;
+    }
+
+    button:hover {
+      color: #fff;
+      background-color: #5a2094;
+    }
+  }
+}

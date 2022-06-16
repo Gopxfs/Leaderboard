@@ -1,0 +1,50 @@
+#recentScores {
+  width: 40%;
+  margin-left: 5%;
+
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+
+    h2 {
+      font-size: 33px;
+      color: #290e44;
+    }
+
+    button {
+      font-size: 18px;
+      height: 50px;
+      width: 120px;
+      border-radius: 5px;
+      align-self: center;
+    }
+
+    button:hover {
+      color: #fff;
+      background-color: #5a2094;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    border: rgb(17, 17, 17) 8px solid;
+    border-radius: 5px;
+    padding: 0;
+    list-style: none;
+    background-color: rgb(17, 17, 17);
+
+    :nth-child(even) {
+      background-color: #4a1d77;
+    }
+
+    li {
+      background-color: #39135f;
+      font-size: 33px;
+      color: rgb(228, 228, 228);
+      padding: 15px;
+    }
+  }
+}
