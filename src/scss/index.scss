@@ -1,6 +1,22 @@
 @import "./partials/recentScores";
 @import "./partials/addNewScore";
 
+body {
+  overflow: auto;
+  overflow-x: hidden;
+  background-color: #744691;
+
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h1 {
+    margin-left: 15%;
+    color: #290e44;
+    font-size: 60px;
+  }
+}
+
 main {
   display: flex;
   flex-direction: row;

@@ -10,6 +10,59 @@
   justify-content: center;
 }
 
+#addNewScore h2 {
+  font-size: 33px;
+  color: #290e44;
+  margin-bottom: 45px;
+}
+
+#recentScores div h2 {
+  font-size: 33px;
+  color: #290e44;
+}
+
+#recentScores div button {
+  font-size: 18px;
+  height: 50px;
+  width: 120px;
+  border-radius: 5px;
+  align-self: center;
+}
+
+#addNewScore form button {
+  font-size: 20px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  align-self: center;
+}
+
+#recentScores div button:hover {
+  color: #fff;
+  background-color: #5a2094;
+}
+
+#recentScores ul {
+  display: flex;
+  flex-direction: column;
+  border: #111 8px solid;
+  border-radius: 5px;
+  padding: 0;
+  list-style: none;
+  background-color: #111;
+}
+
+#recentScores ul :nth-child(even) {
+  background-color: #4a1d77;
+}
+
+#recentScores ul li {
+  background-color: #39135f;
+  font-size: 33px;
+  color: #e4e4e4;
+  padding: 15px;
+}
+
 #addNewScore {
   display: flex;
   flex-direction: column;
@@ -22,10 +75,39 @@
   gap: 10px;
 }
 
+#addNewScore form input {
+  font-size: 22px;
+  padding: 15px;
+}
+
+#addNewScore form input:hover {
+  background-color: #e0e0e0;
+}
+
+#addNewScore form button:hover {
+  color: #fff;
+  background-color: #5a2094;
+}
+
+body {
+  overflow: auto;
+  overflow-x: hidden;
+  background-color: #744691;
+}
+
+body * {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body h1 {
+  margin-left: 15%;
+  color: #290e44;
+  font-size: 60px;
+}
+
 main {
   display: flex;
   flex-direction: row;
   gap: 5%;
   width: 100vw;
 }
-/*# sourceMappingURL=index.css.map */
