@@ -49,3 +49,31 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  #recentScores {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    div {
+      h2 {
+        font-size: 25px;
+      }
+
+      button {
+        height: 40px;
+        width: 100px;
+      }
+    }
+
+    ul {
+      li {
+        font-size: 22px;
+      }
+    }
+  }
+}
