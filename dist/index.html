@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard</title>
-  <script defer src="runtime-0be8a68a5f518459aba2.js"></script><script defer src="main-0be8a68a5f518459aba2.js"></script></head>
+  <script defer src="runtime-d6ba5a069a7e5ca9a1ea.js"></script><script defer src="main-d6ba5a069a7e5ca9a1ea.js"></script></head>
 
   <body>
     <h1>Leaderboard</h1>
@@ -14,19 +14,19 @@
       <section id="recentScores">
         <div>
           <h2>Recent Scores</h2>
-          <button type="button">Refresh</button>
+          <button type="button" id="refreshButton">Refresh</button>
         </div>
-        <ul>
+        <ul id="scores">
           <!-- Li elements created using JS -->
         </ul>
       </section>
 
       <section id="addNewScore">
         <h2>Add new score</h2>
-        <form>
-          <input type="text" name="playerName" placeholder="Player name" required>
-          <input type="number" name="playerScore" placeholder="Player score" required>
-          <button type="submit">Submit</button>
+        <form id="submitScore">
+          <input type="text" name="playerName" id="playerName" placeholder="Player name" required>
+          <input type="number" name="playerScore" id="playerScore" placeholder="Player score" required>
+          <button type="submit" id="submitButton">Submit</button>
         </form>
       </section>
     </main>
