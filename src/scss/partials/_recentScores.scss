@@ -8,11 +8,6 @@
     gap: 5%;
     justify-content: center;
 
-    h2 {
-      font-size: 33px;
-      color: #f7ae11;
-    }
-
     button {
       font-size: 18px;
       height: 50px;
@@ -50,6 +45,11 @@
   }
 }
 
+#recentTitle {
+  font-size: 33px;
+  color: #f7ae11;
+}
+
 @media screen and (max-width: 768px) {
   #recentScores {
     display: flex;
@@ -60,10 +60,6 @@
     margin-right: 5px;
 
     div {
-      h2 {
-        font-size: 25px;
-      }
-
       button {
         height: 40px;
         width: 100px;
@@ -75,5 +71,9 @@
         font-size: 22px;
       }
     }
+  }
+
+  #recentTitle {
+    font-size: 25px;
   }
 }

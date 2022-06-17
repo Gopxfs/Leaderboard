@@ -10,11 +10,6 @@
   justify-content: center;
 }
 
-#recentScores div h2 {
-  font-size: 33px;
-  color: #f7ae11;
-}
-
 #recentScores div button {
   font-size: 18px;
   height: 50px;
@@ -50,56 +45,12 @@
   padding: 15px;
 }
 
+#recentTitle {
+  font-size: 33px;
+  color: #f7ae11;
+}
+
 @media screen and (max-width: 768px) {
-  #addNewScore {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-
-  #addNewScore h2 {
-    font-size: 33px;
-    color: #f7ae11;
-    margin-bottom: 45px;
-  }
-
-  #addNewScore form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  #addNewScore form input {
-    font-size: 22px;
-    padding: 15px;
-  }
-
-  #addNewScore form button {
-    font-size: 20px;
-    border-radius: 5px;
-    height: 50px;
-    width: 150px;
-    align-self: center;
-  }
-
-  #addNewScore form input:hover {
-    background-color: #c4c1b7;
-  }
-
-  #addNewScore form input:hover::placeholder {
-    color: #3b3b3b;
-  }
-
-  #recentScores div button {
-    height: 40px;
-    width: 100px;
-  }
-
-  #addNewScore form button:hover {
-    color: #fff;
-    background-color: #0d776c;
-  }
-
   #recentScores {
     display: flex;
     flex-direction: column;
@@ -109,13 +60,62 @@
     margin-right: 5px;
   }
 
-  #recentScores div h2 {
-    font-size: 25px;
+  #recentScores div button {
+    height: 40px;
+    width: 100px;
   }
 
   #recentScores ul li {
     font-size: 22px;
   }
+
+  #recentTitle {
+    font-size: 25px;
+  }
+}
+
+#addNewScore {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#addNewScore form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#addNewScore form input {
+  font-size: 22px;
+  padding: 15px;
+}
+
+#addNewScore form input:hover {
+  background-color: #c4c1b7;
+}
+
+#addNewScore form input:hover::placeholder {
+  color: #3b3b3b;
+}
+
+#submitButton {
+  font-size: 20px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  align-self: center;
+}
+
+#submitButton:hover {
+  color: #fff;
+  background-color: #0d776c;
+}
+
+#addTitle {
+  font-size: 33px;
+  color: #f7ae11;
+  margin-bottom: 45px;
 }
 
 @media screen and (max-width: 768px) {
@@ -124,11 +124,6 @@
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
-  }
-
-  #addNewScore h2 {
-    font-size: 25px;
-    margin-bottom: 18px;
   }
 
   #addNewScore form {
@@ -144,6 +139,11 @@
     font-size: 18px;
     height: 45px;
     width: 125px;
+  }
+
+  #addTitle {
+    font-size: 25px;
+    margin-bottom: 18px;
   }
 }
 
