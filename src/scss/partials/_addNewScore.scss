@@ -3,12 +3,6 @@
   flex-direction: column;
   width: 30%;
 
-  h2 {
-    font-size: 33px;
-    color: #f7ae11;
-    margin-bottom: 45px;
-  }
-
   form {
     display: flex;
     flex-direction: column;
@@ -26,20 +20,26 @@
     input:hover::placeholder {
       color: rgb(59, 59, 59);
     }
-
-    button {
-      font-size: 20px;
-      border-radius: 5px;
-      height: 50px;
-      width: 150px;
-      align-self: center;
-    }
-
-    button:hover {
-      color: #fff;
-      background-color: #0d776c;
-    }
   }
+}
+
+#submitButton {
+  font-size: 20px;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  align-self: center;
+}
+
+#submitButton:hover {
+  color: #fff;
+  background-color: #0d776c;
+}
+
+#addTitle {
+  font-size: 33px;
+  color: #f7ae11;
+  margin-bottom: 45px;
 }
 
 @media screen and (max-width: 768px) {
@@ -48,11 +48,6 @@
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
-
-    h2 {
-      font-size: 25px;
-      margin-bottom: 18px;
-    }
 
     form {
       gap: 15px;
@@ -68,5 +63,10 @@
         width: 125px;
       }
     }
+  }
+
+  #addTitle {
+    font-size: 25px;
+    margin-bottom: 18px;
   }
 }
