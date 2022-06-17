@@ -1,7 +1,7 @@
 import './scss/index.css';
 import API from './modules/API.js';
 
-// gameID = 'EUPt0FcF5NjJxFAETzlU';
+// gameID = 'w5p0NHFACYCcEXon3iNg';
 const api = new API();
 const submitScore = document.getElementById('submitScore');
 const refreshButton = document.getElementById('refreshButton');
@@ -17,20 +17,22 @@ submitScore.addEventListener('submit', () => {
   const playerName = document.getElementById('playerName');
   const playerScore = document.getElementById('playerScore');
   api.addNewScore(playerName.value, playerScore.value);
-  return false;
 });
 
-const populateScores = async (index) => {
+const populateScores = async (oldLength) => {
   gameScore = await getScores();
-  for (let i = index; i < gameScore.result.length; i += 1) {
-    const newScore = document.createElement('li');
-    newScore.innerHTML = `${gameScore.result[i].user}: ${gameScore.result[i].score}`;
-    scores.append(newScore);
+  if (oldLength < gameScore.result.length) {
+    scores.innerHTML = '';
+    for (let i = 0; i < gameScore.result.length; i += 1) {
+      const newScore = document.createElement('li');
+      newScore.innerHTML = `${gameScore.result[i].user}: ${gameScore.result[i].score}`;
+      scores.append(newScore);
+    }
   }
 };
 populateScores(0);
 
-refreshButton.addEventListener('click', async () => {
+refreshButton.addEventListener('click', () => {
   const howManyScoresBeforeRefreshing = gameScore.result.length;
   populateScores(howManyScoresBeforeRefreshing);
 });
